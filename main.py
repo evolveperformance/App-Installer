@@ -145,7 +145,7 @@ async def download_selected():
         input()
         return
 
-    download_dir = Path("C:/Evolve/Apps")
+    download_dir = Path("C:/Windows/Evolve/Apps")
     download_dir.mkdir(parents=True, exist_ok=True)
 
     async with aiohttp.ClientSession() as session:
